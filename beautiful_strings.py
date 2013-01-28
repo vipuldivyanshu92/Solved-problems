@@ -1,4 +1,4 @@
-'''# -*- coding: utf-8 -*-'''
+#Facebook hack Cup :Qualification Round ,Question 1.
 """When John was a little kid he didn't have much to do. There was no internet, no Facebook, and no programs to hack on. So he did the only thing he could... he evaluated the beauty of strings in a quest to discover the most beautiful string in the world.
 
 Given a string s, little Johnny defined the beauty of the string as the sum of the beauty of the letters in it.
@@ -72,14 +72,14 @@ def main(data):
         out=out+'Case #'+str(j+1)+': '+str(countList[j])+'\n'
     return out
 ############ run ##################
-##f=open("beautiful_stringstxt_")
-##data=f.read()
-##data=data.split("\n")
-##print data
-##f.close()
-##out=main(data)
-##with open('output.txt', 'w') as fo:
-##    fo.write(out)
-##print out
-##fo.close()
+f=open("beautiful_stringstxt")
+data=f.read()
+data=data.split("\n")
+print data
+f.close()
+out=main(data)
+with open('output.txt', 'w') as fo:
+    fo.write(out)
+print out
+fo.close()
 
